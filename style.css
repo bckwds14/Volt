@@ -1,0 +1,41 @@
+.header {
+    padding:20px;
+    margin-bottom:30px;
+    text-shadow: 1px 1px 3px rgba(246, 0, 0, 0.4);
+    color: rgb(91, 180, 2);
+}
+.product {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+*{
+    box-sizing:border-box;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius:10px;
+}
+button:hover{
+    box-shadow: 0 6px 12px rgba(3, 177, 93, 0.3);
+    color: aquamarine;
+}
+img{
+    width:200px;
+}
+img:hover{
+    width:350px;
+}
+.feedback{
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.main {
+    max-width: 1200px;
+    margin: 30px auto;
+    gap: 20px;
+}
