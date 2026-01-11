@@ -7,14 +7,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header"> 
-   <h1>Volt</h1>
-   <p>Енергія сучасних технологій</p>
+  <nav class="menu" id="menu">
+    <a href="#golovna">Головна</a>
+    <a href="#katalog">Каталог</a>
+    <a href="#" class="hidden">Акції</a>
+    <a href="#contact">Контакти</a>
+    <a href="#" class="special">Новинки</a>
+    <a href="#" class="buy-button">Кошик</a>
+  </nav>
+  <h1 id="golovna">Volt</h1>
+   <p class="slogan">Енергія сучасних технологій</p>
+   <p class="title">🔌 Магазин електротехніки VOLT
+
+VOLT — це сучасний вигаданий магазин електротехніки та електроніки, який спеціалізується на продажі якісної техніки для дому, роботи та навчання. Ми поєднуємо надійність, доступні ціни та зручний сервіс.</p>
+<p class="title1">⭐ Переваги VOLT:
+
+  <ul class="title1">
+    <li>тільки перевірені бренди;</li>
+
+    <li>гарантія на всі товари;</li>
+
+    <li>швидка доставка по Україні;</li>
+
+    <li>професійні консультації;</li>
+  </ul>
+</p>
   </header>
-  <main class="main">
+  <main class="main" id="katalog">
+    <div class="products">
   <div class="product">
     <h2>Навушники</h2>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEUjUySopqTVYGBUVsbJXt6fMYCxONzP40Gw&s" alt="Навушники">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEUjUySopqTVYGBUVsbJXt6fMYCxONzP40Gw&s" alt="Навушники" class="prystroyi">
     <p>Якісний звук та комфорт</p>
     <button>
         <a href="https://expertonline.com.ua/navushniki-z-mikrofonom-jbl-tune-510bt-black.html?srsltid=AfmBOooT5HeEnhYnVEUvPJ0trDK0XAhZ081zdrsBuPDeUM--mP0qeVdO" target="_blank">Купити</a>
@@ -26,7 +49,7 @@
   </div>
   <div class="product">
     <h2>Смарт-годинник</h2>
-    <img src="https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/p/4/p45-5.jpg/w_600" alt="Смарт-годинник">
+    <img src="https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/p/4/p45-5.jpg/w_600" alt="Смарт-годинник" class="prystroyi">
     <p>Контроль здоровʼя щодня</p>
     <button>Купити</button>
     <p>Сподобався товар? Поділись з іншими</p>
@@ -36,14 +59,15 @@
   </div>
   <div class="product">
     <h2>Окуляри з камерою Ray-Ban</h2>
-    <img src="https://icases.ua/files/resized/products/51llewrzafl._ac_sl1500_.260x260.jpg" alt="Окуляри з камерою">
+    <img src="https://icases.ua/files/resized/products/51llewrzafl._ac_sl1500_.260x260.jpg" alt="Окуляри з камерою" class="prystroyi">
     <p>Зафіксуй важливі моменти</p>
     <button>Купити</button>
+    </div>
+    </div>
     <p>Сподобався товар? Поділись з іншими</p>
     <input>
     <br>
     <button>Залишити відгук</button>
-  </div>
   </main>
   <div class="feedback">
     <h3>Відгуки</h3>
@@ -51,6 +75,14 @@
     <input>
     <br>
     <button>Залишити відгук</button>
+    <fooler class="contact" id="contact">
+      <h3>Контакти</h3>
+      <ul>
+        <li>+380 97 513 04 79</li>
+        <li>+380 97 513 11 52</li>
+      </ul>
+      <a href="#menu" class="strilka_vgoru_a"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHwiKJuAktb-BNZKRRHwF5j4dqIaSMJn3RZg&s" alt="strilka vgoru" class="strilka_vgoru"> </a>
+    </fooler>
     
   </div>
 </body>

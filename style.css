@@ -1,4 +1,4 @@
-.header {
+#golovna {
     padding:20px;
     margin-bottom:30px;
     text-shadow: 1px 1px 3px rgba(246, 0, 0, 0.4);
@@ -9,6 +9,7 @@
     border: 1px solid #ccc;
     margin-bottom: 20px;
     box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    width: 400px;;
 }
 *{
     box-sizing:border-box;
@@ -23,10 +24,10 @@ button:hover{
     box-shadow: 0 6px 12px rgba(3, 177, 93, 0.3);
     color: aquamarine;
 }
-img{
+.prystroyi{
     width:200px;
 }
-img:hover{
+.prystroyi:hover{
     width:350px;
 }
 .feedback{
@@ -39,3 +40,75 @@ img:hover{
     margin: 30px auto;
     gap: 20px;
 }
+nav {
+    background-color: #222;
+    border-radius:10px;
+}
+nav a{
+    background-color:yellowgreen;
+    color:whitesmoke;
+    box-shadow: #444;
+} 
+.menu {
+    padding: 10px;
+    margin-bottom:40px;
+    display: flex; /* увімкнення Flexbox */ 
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+    align-items: center;
+    gap: 8px;
+}
+.menu a {
+    display: inline-block;
+    padding: 12px 18px;
+    text-decoration: none;
+    border-radius:20px;
+    text-align: center;
+}
+.menu a:hover {
+    background-color:#666;
+}
+.menu a.hidden{
+    display: none;
+}
+.menu a:active {
+    background-color: #0088cc;
+}
+.title {
+  color: #0088cc;
+}
+.title1 {
+ color: orange;
+}
+.slogan {
+    color: darkcyan;
+    }
+.strilka_vgoru {
+    width:50px;
+}
+.strilka_vgoru_a{
+    text-align:right;
+}
+@media (max-width: 500px) {
+    .menu{
+        gap: 5px;
+         flex-direction: column; 
+        align-items: flex-start;
+    }
+}
+.buy-button {
+margin-left: auto; /* 🔥 головний рядок */
+    background-color: yellowgreen;
+    color: white;
+    font-weight: bold;
+}
+
+.buy-button:hover {
+    background-color: #666; 
+}
+.products{
+display: flex;
+}
+
+
